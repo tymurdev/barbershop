@@ -1,0 +1,220 @@
+:root {
+  --header-color-txt: #fff;
+  --first-title-color: #fff;
+  --second-title-color: #303030;
+  --first-btn-color: #fff;
+  --second-btn-color: #303030;
+  --accent-color: #ff6c00;
+}
+
+body {
+  font-family: "Open Sans", sans-sarif;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.pre-title {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+.title {
+  font-family: "Raleway", sans-serif;
+  font-size: 42px;
+  line-height: 1.17;
+  letter-spacing: 0.05em;
+}
+.after-title {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.02em;
+}
+
+.btn {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+}
+
+/* --- HEADER --- */
+.header-logo {
+}
+
+.header-list {
+}
+
+.header {
+  background-color: grey;
+}
+
+.header-link,
+.header-tel {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.1em;
+  color: var(--header-color-txt);
+}
+
+.header-link:hover,
+.header-link:focus,
+.header-tel:hover,
+.header-tel:focus {
+  color: var(--accent-color);
+}
+
+.header-button {
+  color: var(--first-btn-color);
+}
+
+/* --- HERO --- */
+
+.hero {
+  background-color: grey;
+}
+.hero-link {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  letter-spacing: 0.2em;
+  color: var(--first-btn-color);
+}
+
+.hero-link:hover,
+.hero-link:focus {
+  color: var(--accent-color);
+}
+
+.hero-pre-title {
+  color: rgba(157, 164, 189, 0.6);
+}
+
+.hero-title {
+  color: var(--first-btn-color);
+}
+
+.hero-after-title {
+  color: #9da4bd;
+}
+
+/* --- ABOUT US --- */
+.aboutus {
+}
+.abotus-list {
+}
+.aboutus-item {
+}
+.aboutus-pre-title {
+  color: var(--second-title-color);
+}
+.aboutus-title {
+  color: var(--second-title-color);
+}
+.aboutus-after-title {
+  color: #555555;
+}
+.aboutus-txt {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.86;
+  letter-spacing: 0.02em;
+  color: #555555;
+}
+.aboutus_button {
+  color: var(--second-btn-color);
+}
+
+/* --- PRICES --- */
+
+.prices {
+  background-color: grey;
+}
+.prices-pre-title {
+  color: rgba(157, 164, 189, 0.6);
+}
+.prices-title {
+  color: var(--first-title-color);
+}
+.prices-list {
+}
+.prices-item {
+}
+.prices-item-txt {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.02em;
+  color: #9da4bd;
+}
+.prices-btn {
+  color: var(--first-btn-color);
+}
+
+/* ---REASON--- */
+
+.reasons {
+}
+.reason-list {
+}
+.reasons-item {
+}
+.reason-item-count {
+  color: var(--second-title-color);
+}
+.reason-item-txt {
+  color: var(--second-title-color);
+}
+.reason-pre-title {
+  color: var(--second-title-color);
+}
+.reason-title {
+  color: var(--second-title-color);
+}
+.reason-after-title {
+  color: #555555;
+}
+
+/* ---MASTERS--- */
+.masters-pre-title {
+  color: #303030;
+}
+.masters-title {
+  color: var(--second-title-color);
+}
+.masters-list {
+}
+.masters-item {
+}
+.masters-name {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.39;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #303030;
+}
+.masters-prof {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ff6c00;
+}
+
+/* ---GALLAREY--- */
+
+/* ---REGISTRATION--- */
+
+/* ---FOOTER--- */
