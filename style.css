@@ -206,11 +206,11 @@ img {
 }
 .prices-title {
   color: var(--first-title-color);
-  margin-bottom: 40px;
+  margin-bottom: 44px;
 }
 .prices-list {
   border: 1px solid #fff;
-  padding: 40px 40px;
+  padding: 30px 40px;
 }
 .prices-item {
   margin-bottom: var(--typical-margin);
@@ -229,8 +229,7 @@ img {
 /* ---REASON--- */
 
 .reasons {
-  padding-top: 114px;
-  padding-bottom: 137px;
+  padding: 144px 0 137px 0;
 }
 .reason-list {
 }
@@ -341,7 +340,6 @@ img {
   margin-bottom: var(--typical-margin);
 }
 .contacts-link {
-  font-weight: 400;
   font-size: 18px;
   line-height: 1.67;
   letter-spacing: 0.02em;
