@@ -12,6 +12,22 @@ body {
   font-family: "Open Sans", sans-sarif;
 }
 
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding-left: 0;
+}
+
 img {
   display: block;
 }
@@ -108,22 +124,23 @@ img {
 /* --- HERO --- */
 
 .hero {
-  background-color: grey;
-  padding: 272px 0 206px 96px;
 }
 .hero-link {
   font-weight: 600;
   font-size: 11px;
   line-height: 1.36;
   letter-spacing: 0.2em;
-  color: var(--first-btn-color);
+  color: #303030;
 }
 
 .hero-link:hover,
 .hero-link:focus {
   color: var(--accent-color);
 }
-
+.hero-content {
+  background-color: #303030;
+  padding: 272px 0 206px 96px;
+}
 .hero-pre-title {
   color: rgba(157, 164, 189, 0.6);
   margin-bottom: var(--typical-margin);
@@ -145,8 +162,8 @@ img {
 
 /* --- ABOUT US --- */
 .aboutus {
-  margin-top: ;
-  margin-bottom: ;
+  padding-top: 139px;
+  padding-bottom: 121px;
 }
 .abotus-list {
 }
@@ -179,7 +196,7 @@ img {
 /* --- PRICES --- */
 
 .prices {
-  background-color: grey;
+  background-color: #303030;
   padding-bottom: 130px;
   padding-top: 130px;
 }
@@ -252,8 +269,7 @@ img {
 
 /* ---MASTERS--- */
 .masters {
-  padding-top: 130px;
-  padding-bottom: 130px;
+  padding: 130px 0 130px 0;
 }
 .masters-pre-title {
   color: #303030;
@@ -266,6 +282,7 @@ img {
 .masters-list {
 }
 .masters-img {
+  margin-bottom: 44px;
 }
 .masters-item {
 }
@@ -316,10 +333,12 @@ img {
 }
 .contacts-adress {
   font-style: normal;
+  margin-bottom: 70px;
 }
 .contacts-list {
 }
 .contacts-item {
+  margin-bottom: var(--typical-margin);
 }
 .contacts-link {
   font-weight: 400;
@@ -340,6 +359,8 @@ img {
   letter-spacing: 0.1em;
   text-transform: uppercase;
   color: #fff;
+  display: block;
+  margin-bottom: var(--typical-margin);
 }
 
 .contacts-time-text {
@@ -352,6 +373,7 @@ img {
 
 /* ---FOOTER--- */
 .footer {
+  padding: 57px 0 55px 0;
 }
 .footer-copy {
   font-weight: 600;
