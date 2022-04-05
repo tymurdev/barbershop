@@ -5,10 +5,15 @@
   --first-btn-color: #fff;
   --second-btn-color: #303030;
   --accent-color: #ff6c00;
+  --typical-margin: 20px;
 }
 
 body {
   font-family: "Open Sans", sans-sarif;
+}
+
+img {
+  display: block;
 }
 
 .list {
@@ -17,6 +22,14 @@ body {
 
 .link {
   text-decoration: none;
+}
+
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+  outline: 2px solid red;
 }
 
 .pre-title {
@@ -64,6 +77,8 @@ body {
 /* --- HEADER --- */
 .header {
   background-color: grey;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .header-logo {
 }
@@ -94,6 +109,7 @@ body {
 
 .hero {
   background-color: grey;
+  padding: 272px 0 206px 96px;
 }
 .hero-link {
   font-weight: 600;
@@ -110,6 +126,7 @@ body {
 
 .hero-pre-title {
   color: rgba(157, 164, 189, 0.6);
+  margin-bottom: var(--typical-margin);
 }
 
 .hero-title {
@@ -118,14 +135,18 @@ body {
   font-size: 72px;
   line-height: 1.18;
   letter-spacing: 0.05em;
+  margin-bottom: var(--typical-margin);
 }
 
 .hero-after-title {
   color: #9da4bd;
+  max-width: 400px;
 }
 
 /* --- ABOUT US --- */
 .aboutus {
+  margin-top: ;
+  margin-bottom: ;
 }
 .abotus-list {
 }
@@ -133,12 +154,15 @@ body {
 }
 .aboutus-pre-title {
   color: var(--second-title-color);
+  margin-bottom: var(--typical-margin);
 }
 .aboutus-title {
   color: var(--second-title-color);
+  margin-bottom: var(--typical-margin);
 }
 .aboutus-after-title {
   color: #555555;
+  margin-bottom: var(--typical-margin);
 }
 .aboutus-txt {
   font-weight: 400;
@@ -146,6 +170,7 @@ body {
   line-height: 1.86;
   letter-spacing: 0.02em;
   color: #555555;
+  margin-bottom: 40px;
 }
 .aboutus_button {
   color: var(--second-btn-color);
@@ -155,16 +180,23 @@ body {
 
 .prices {
   background-color: grey;
+  padding-bottom: 130px;
+  padding-top: 130px;
 }
 .prices-pre-title {
   color: rgba(157, 164, 189, 0.6);
+  margin-bottom: var(--typical-margin);
 }
 .prices-title {
   color: var(--first-title-color);
+  margin-bottom: 40px;
 }
 .prices-list {
+  border: 1px solid #fff;
+  padding: 40px 40px;
 }
 .prices-item {
+  margin-bottom: var(--typical-margin);
 }
 .prices-item-txt {
   font-weight: 400;
@@ -180,10 +212,16 @@ body {
 /* ---REASON--- */
 
 .reasons {
+  padding-top: 114px;
+  padding-bottom: 137px;
 }
 .reason-list {
 }
 .reasons-item {
+  width: 170px;
+  height: 133px;
+  border: 1px solid #000;
+  padding: 20px 24px;
 }
 .reason-item-count {
   color: var(--second-title-color);
@@ -202,22 +240,32 @@ body {
 }
 .reason-pre-title {
   color: var(--second-title-color);
+  margin-bottom: var(--typical-margin);
 }
 .reason-title {
   color: var(--second-title-color);
+  margin-bottom: var(--typical-margin);
 }
 .reason-after-title {
   color: #555555;
 }
 
 /* ---MASTERS--- */
+.masters {
+  padding-top: 130px;
+  padding-bottom: 130px;
+}
 .masters-pre-title {
   color: #303030;
+  margin-bottom: var(--typical-margin);
 }
 .masters-title {
   color: var(--second-title-color);
+  margin-bottom: 44px;
 }
 .masters-list {
+}
+.masters-img {
 }
 .masters-item {
 }
@@ -228,6 +276,7 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   color: #303030;
+  margin-bottom: 8px;
 }
 .masters-prof {
   font-size: 14px;
@@ -239,9 +288,12 @@ body {
 
 /* ---GALLAREY--- */
 .gallery {
+  padding-top: 130px;
+  padding-bottom: 130px;
 }
 .gallery-pre-title {
   color: #303030;
+  margin-bottom: 44px;
 }
 .gallery-list {
 }
@@ -260,6 +312,7 @@ body {
 }
 .contacts-title {
   color: var(--first-title-color);
+  margin-bottom: 40px;
 }
 .contacts-adress {
   font-style: normal;
