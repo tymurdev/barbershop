@@ -115,7 +115,7 @@
           </p>
           <h2 class="prices-title title">Услуги и цены</h2>
           <div class="prices-warp">
-            <ul class="list prices-list prices-list-light">
+            <ul class="list prices-list">
               <li class="prices-item">
                 <p class="prices-item-txt">Мужская стрижка</p>
                 <p class="prices-item-txt">от 300 грн.</p>
@@ -133,7 +133,7 @@
                 <p class="prices-item-txt">от 200 грн.</p>
               </li>
             </ul>
-            <ul class="list prices-list prices-list-dark">
+            <ul class="list prices-list">
               <li class="prices-item">
                 <p class="prices-item-txt">Стрижка у стражера</p>
                 <p class="prices-item-txt">от 50 грн.</p>
@@ -156,32 +156,38 @@
         </div>
       </section>
       <!-- Section-4 REASON-->
-      <section class="reasons">
+      <section class="reason">
         <div class="container">
-          <ul class="list reason-list">
-            <li class="reasons-item">
-              <span class="reason-item-count">600</span>
-              <p class="reason-item-txt">Довольных клиентов в день</p>
-            </li>
-            <li class="reasons-item">
-              <span class="reason-item-count">50</span>
-              <p class="reason-item-txt">Наград за отличный сервис</p>
-            </li>
-            <li class="reasons-item">
-              <span class="reason-item-count">20</span>
-              <p class="reason-item-txt">Лучших мастеров Киева</p>
-            </li>
-            <li class="reasons-item">
-              <span class="reason-item-count">100</span>
-              <p class="reason-item-txt">Подарков постоянным клиентам</p>
-            </li>
-          </ul>
-          <p class="reason-pre-title pre-title">старая традиционная школа</p>
-          <h2 class="reason-title title">Почему приходят именно к нам?</h2>
-          <p class="reason-after-title after-title">
-            О нас говорят только хорошее. Но лучше 1 раз увидеть и
-            прочувствовать, чем 10 раз прочитать.
-          </p>
+         <div class="reason-container">
+            <div class="reason-block">
+                <ul class="list reason-list">
+                  <li class="reason-item">
+                    <span class="reason-item-count">600</span>
+                    <p class="reason-item-txt">Довольных клиентов в день</p>
+                  </li>
+                  <li class="reason-item">
+                    <span class="reason-item-count">50</span>
+                    <p class="reason-item-txt">Наград за отличный сервис</p>
+                  </li>
+                  <li class="reason-item">
+                    <span class="reason-item-count">20</span>
+                    <p class="reason-item-txt">Лучших мастеров Киева</p>
+                  </li>
+                  <li class="reason-item">
+                    <span class="reason-item-count">100</span>
+                    <p class="reason-item-txt">Подарков постоянным клиентам</p>
+                  </li>
+                </ul>
+            </div>
+            <div class="reason-content"> 
+              <p class="reason-pre-title pre-title">старая традиционная школа</p>
+              <h2 class="reason-title title">Почему приходят именно к нам?</h2>
+              <p class="reason-after-title after-title">
+                О нас говорят только хорошее. Но лучше 1 раз увидеть и
+                прочувствовать, чем 10 раз прочитать.
+              </p> 
+            </div>
+         </div>
         </div>
       </section>
       <!-- Section-5 MASTERS-->
@@ -202,7 +208,7 @@
               />
               <h3 lang="en" class="masters-name">John Smith</h3>
               <p lang="en" class="masters-prof">Extreme Barber</p>
-          <ul class="master-soc">
+              <ul class="master-soc">
                  <li class="master-soc-item">
                    <a href="http://" class="master-soc-link link" >
                      <svg class="master-soc-icon" width="20" height="20">
@@ -282,8 +288,7 @@
               />
               <h3 lang="en" class="masters-name">Alan Black</h3>
               <p lang="en" class="masters-prof">Extreme Barber</p>
-              <ul>
-<ul class="master-soc">
+              <ul class="master-soc">
   
                  <li class="master-soc-item">
                    <a href="http://" class="master-soc-link link" >
@@ -362,38 +367,42 @@
           </ul>
         </div>
       </section>
-      <!-- Section-7 ONLINE-->
-      <section class="online">
-        <h2 class="online-title title">Онлайн-запись</h2>
-      </section>
-      <!-- Section 8 CONTACTS-->
-      <section class="contacts">
-        <h2 class="title contacts-title">Контакты</h2>
-        <address class="contacts-adress">
-          <ul class="list contacts-list">
-            <li class="contacts-item">
-              <a
-                href="https://goo.gl/maps/a3og9NuL2y8VwEaA9"
-                target="_blank"
-                class="link contacts-link"
-                >ул. Васильковая, 7А Киев, 08132</a
-              >
-            </li>
-            <li class="contacts-item">
-              <a href="tel:+380441111111" class="link contacts-link"
-                >+38 044 111 11 11</a
-              >
-            </li>
-            <li class="contacts-item">
-              <a href="mail:barbershop@email.com" class="link contacts-link"
-                >barbershop@email.com</a
-              >
-            </li>
-          </ul>
-        </address>
-        <b class="contacts-time-title">время работы</b>
-        <p class="contacts-time-text">Ежедневно с 9:00 до 22:00</p>
-      </section>
+      <div class="contact-wrap">
+        <div class="container">
+            <!-- Section-7 ONLINE-->
+            <section class="online">
+              <h2 class="online-title title">Онлайн-запись</h2>
+            </section>
+            <!-- Section 8 CONTACTS-->
+            <section class="contacts">
+              <h2 class="title contacts-title">Контакты</h2>
+              <address class="contacts-adress">
+                <ul class="list contacts-list">
+                  <li class="contacts-item">
+                    <a
+                      href="https://goo.gl/maps/a3og9NuL2y8VwEaA9"
+                      target="_blank"
+                      class="link contacts-link"
+                      >ул. Васильковая, 7А Киев, 08132</a
+                    >
+                  </li>
+                  <li class="contacts-item">
+                    <a href="tel:+380441111111" class="link contacts-link"
+                      >+38 044 111 11 11</a
+                    >
+                  </li>
+                  <li class="contacts-item">
+                    <a href="mail:barbershop@email.com" class="link contacts-link"
+                      >barbershop@email.com</a
+                    >
+                  </li>
+                </ul>
+              </address>
+              <b class="contacts-time-title">время работы</b>
+              <p class="contacts-time-text">Ежедневно с 9:00 до 22:00</p>
+            </section>
+          </div>
+        </div>
     </main>
     <!-- FOOTER -->
     <footer class="footer">
